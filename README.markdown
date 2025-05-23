@@ -95,7 +95,7 @@ pizza-restaurant-review/
 ## Running the Project
 1. **Activate Environment:**
    ```powershell
-   .\venv\Scripts\activate
+   .\venv\Scripts\Activate.ps1
    ```
 2. **Run Q&A:**
    ```powershell
@@ -150,6 +150,7 @@ pizza-restaurant-review/
   - `langchain`
   - `langchain-ollama`
   - `langchain-chroma`
+  - `vector`
   - `pandas`
   - `pynvml`
 - **PyTorch with CUDA:**
@@ -157,8 +158,8 @@ pizza-restaurant-review/
   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
   ```
 - **Ollama Models:**
-  - `llama3.2:latest` (a80c4f17acd5, 2.0 GB)
-  - `mxbai-embed-large:latest` (468836162de7, 669 MB)
+  - `llama3.2:latest` (a----------5, 2.0 GB)
+  - `mxbai-embed-large:latest` (4----------7, 669 MB)
 - **NVIDIA Stack:**
   - CUDA 12.6/12.7
   - cuDNN (bundled with PyTorch)
