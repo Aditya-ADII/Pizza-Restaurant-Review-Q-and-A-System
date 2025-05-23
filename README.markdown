@@ -23,9 +23,7 @@ This project uses **LangChain**, **Ollama**, and **Chroma** to answer questions 
 2. **Install Python and Virtual Environment:**
    ```powershell
    python -m venv venv
-   .\venv\Scripts\activate  # Windows
-   # or
-   source venv/bin/activate  # Linux/macOS
+   .\venv\Scripts\Activate.ps1  # Windows
    ```
 
 3. **Install Dependencies:**
