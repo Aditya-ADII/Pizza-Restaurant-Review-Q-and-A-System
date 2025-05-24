@@ -93,11 +93,15 @@ pizza-restaurant-review/
    - `nvidia-smi` shows `ollama.exe`/`python.exe` usage.
 
 ## Running the Project
-1. **Activate Environment:**
+1. **Create Environment:**
+   ```powershell
+   python -m venv venv
+   ```
+2. **Activate Environment:**
    ```powershell
    .\venv\Scripts\Activate.ps1
    ```
-2. **Run Q&A:**
+3. **Run Q&A:**
    ```powershell
    python main.py
    ```
@@ -108,7 +112,7 @@ pizza-restaurant-review/
      Ask your question (q to quit): whats the best pizza in town
      Based on reviews, [Pizza Place] has the best pizza for its crispy crust.
      ```
-3. **Run GPU Monitor:**
+4. **Run GPU Monitor:**
    ```powershell
    python Monitor_cuda.py
    ```
